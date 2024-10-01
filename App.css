@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6e7ff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: transparent;  /* Deixa o contÃªiner transparente */
+    border-radius: 10px;
+    text-align: center;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 27px;
+  font-weight: bold;
+  color: #4B0082;
+  margin-bottom: 30px;
+}
+.input-container {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.label {
+  color: #4B0082;
+  margin-bottom: 5px;
+}
+.input {
+  width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #4B0082;
+    background-color: transparent;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #4B0082;
+}
+.forgot-password {
+  color: #4B0082;
+  text-align: right;
+  margin-top: 8px;
+  display: block;
+  font-size: 13px;
+}
+.button {
+  background-color: #4B0082;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+}
+.or-text {
+  color: #4B0082;
+  margin: 20px 0;
+}
+.google-button {
+  display: flex;
+  align-items: center;
+  background-color: #FFF;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #E0E0E0;
+  text-decoration: none;
+  color: #4B0082;
+  font-weight: bold;
+  justify-content: center;
+}
+.google-button img {
+  margin-right: 10px;
+}
+.sign-up-text {
+  margin-top: 20px;
+  color: #4B0082;
+}
+.sign-up-link {
+  font-weight: bold;
+  color: #4B0082;
+  text-decoration: none;
+}
